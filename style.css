@@ -1,0 +1,97 @@
+:root {
+  --bodyBackgroundColor: #FFEDD5;
+  --bodyBackgroundColor2: #FCC203;
+  --headerColor: #2D2C2A;
+  --headerH1Span: #995000;
+  --headerH1Span2: #FC3903;
+  --sectionH2Color: #FED7AA;
+  --sectionH2Color2: #FC3903;
+  --footerColor: #030BFC;
+}
+* {
+    margin: 0;
+    padding: 0;
+  } 
+  body {
+    background-color: var(--bodyBackgroundColor2);
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+  }
+  ul {
+    list-style: none;
+  }
+  h1, h2, h3, .price {
+    font-family: 'Mukta', sans-serif;
+    text-transform: uppercase;
+    color: var(--headerColor);
+    font-size: 14px;
+  }
+  header {
+    padding: 32px 0;
+    text-align: center;
+  }
+  header,
+  section {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  header h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  header h1 span {
+    color: var(--headerH1Span2);
+  }
+  header p {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  section {
+    margin-bottom: 24px;
+  }
+  section h2 {
+    background-color: var(--sectionH2Color2);
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  ul li {
+    margin-bottom: 16px;
+    display: flex;
+  }
+  li .details {
+    max-width: 240px;
+  }
+  .details h3 {
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+  .details p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .footerWrapper {
+    margin: 50px 0;
+    background-color: var(--footerColor);
+    padding: 10px 0;
+  }
+  footer {
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .companyData {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    margin: 50px 25px;
+    font-weight: bold;
+  }
