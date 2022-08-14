@@ -6,7 +6,8 @@
   --headerH1Span2: #FC3903;
   --sectionH2Color: #FED7AA;
   --sectionH2Color2: #FC3903;
-  --footerColor: #030BFC;
+  --footerBackgroundColor: #4C51ED;
+  --footerFontColor: #2D2C2A;
 }
 * {
     margin: 0;
@@ -19,6 +20,9 @@
   }
   ul {
     list-style: none;
+  }
+  .ulWrapper {
+    background-color: var(--bodyBackgroundColor);
   }
   h1, h2, h3, .price {
     font-family: 'Mukta', sans-serif;
@@ -57,6 +61,7 @@
     text-align: center;
     margin-bottom: 24px;
     font-size: 18px;
+    border-radius: 10px;
   }
   ul li {
     margin-bottom: 16px;
@@ -75,10 +80,15 @@
     font-size: 14px;
     line-height: 21px;
   }
+  .footerWrapperDad {
+    margin: 30px 30px;
+  }
   .footerWrapper {
     margin: 50px 0;
-    background-color: var(--footerColor);
+    background-color: var(--footerBackgroundColor);
     padding: 10px 0;
+    color: var(--footerFontColor);
+    border-radius: 15px;
   }
   footer {
     text-align: center;
