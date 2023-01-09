@@ -97,7 +97,6 @@
     font-size: 20px;
     font-weight: bold;
   }
-/*
   .companyData {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -106,4 +105,13 @@
     margin: 50px 25px;
     font-weight: bold;
   }
-*/
+
+  .footerDivDevParent{
+    border-radius: 100px;
+  }
+.footerDivDev {
+  font-size: 12px;
+  background-color: var(--footerFontColor);
+  color: var(--bodyBackgroundColor);
+  border-radius: 100px;
+}
