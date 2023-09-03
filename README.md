@@ -1,6 +1,6 @@
 <h1 align="center">Taki Landing Page</h1>
 
-<p align="center">A menu landing page I developed for a close person who owns a restaurant.</p>
+<p align="center">A menu landing page I developed for a customer.</p>
 
 <p align="center">https://renanmakoto.github.io/Taki-Landing-Page/</p>
 
