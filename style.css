@@ -52,6 +52,7 @@
     font-size: 28px;
     line-height: 33px;
   }
+
   header h1 span {
     color: var(--headerH1Span2);
   }
