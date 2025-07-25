@@ -28,6 +28,7 @@
   .ulWrapper {
     background-color: var(--bodyBackgroundColor);
   }
+
   h1, h2, h3, .price {
     font-family: 'Mukta', sans-serif;
     text-transform: uppercase;
