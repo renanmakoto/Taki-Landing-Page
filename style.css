@@ -108,6 +108,7 @@
     color: var(--footerFontColor);
     border-radius: 15px;
   }
+
   footer {
     text-align: center;
     font-family: 'Mukta', sans-serif;
